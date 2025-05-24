@@ -21,9 +21,7 @@ Simulador Interativo da Força Elétrica baseado na **Lei de Coulomb**.
 
 O **Coulomb Visualizer** foi desenvolvido em **Python** com o objetivo de simular e visualizar a força elétrica entre duas cargas puntiformes com base na **Lei de Coulomb**:
 
-\[
-F = k \cdot \frac{{|q_1 \cdot q_2|}}{{d^2}}
-\]
+**F = k * |q₁ * q₂| / d²**
 
 ### Funcionalidades principais:
 
