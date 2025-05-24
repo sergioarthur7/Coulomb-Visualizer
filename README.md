@@ -13,7 +13,7 @@ Simulador Interativo da Força Elétrica baseado na **Lei de Coulomb**.
   - Douglas Lacerda - Nº 10  
   - Sérgio Arthur - Nº 40  
 - **Tema:** Simulador Interativo da Força Elétrica (Lei de Coulomb)  
-- **Data de Entrega:** _(inserir data da entrega)_
+- **Data de Entrega:** _25/05/2025_
 
 ---
 
