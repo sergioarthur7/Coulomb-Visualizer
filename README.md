@@ -1,4 +1,4 @@
-# ⚡ Coulomb Visualizer
+# ⚡ Coulomb Visualizer - Relatório de Física
 
 Simulador Interativo da Força Elétrica baseado na **Lei de Coulomb**.
 
