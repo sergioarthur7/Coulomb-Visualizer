@@ -1,6 +1,10 @@
-# Relatório de Física - Simulador da Lei de Coulomb
+# ⚡ Coulomb Visualizer
 
-## Informações Iniciais
+Simulador Interativo da Força Elétrica baseado na **Lei de Coulomb**.
+
+---
+
+## 📚 Informações Iniciais
 
 - **Escola:** EEEP Padre João Bosco de Lima  
 - **Disciplina:** Física - Turma 3 Informática  
@@ -9,13 +13,13 @@
   - Douglas Lacerda - Nº 10  
   - Sérgio Arthur - Nº 40  
 - **Tema:** Simulador Interativo da Força Elétrica (Lei de Coulomb)  
-- **Data:** _(inserir data da entrega)_
+- **Data de Entrega:** _(inserir data da entrega)_
 
 ---
 
-## 1. Funcionamento do Programa
+## ⚙️ Funcionamento do Programa
 
-O programa desenvolvido em **Python** tem como objetivo simular e visualizar a força elétrica entre duas cargas puntiformes com base na **Lei de Coulomb**:
+O **Coulomb Visualizer** foi desenvolvido em **Python** com o objetivo de simular e visualizar a força elétrica entre duas cargas puntiformes com base na **Lei de Coulomb**:
 
 \[
 F = k \cdot \frac{{|q_1 \cdot q_2|}}{{d^2}}
@@ -25,50 +29,48 @@ F = k \cdot \frac{{|q_1 \cdot q_2|}}{{d^2}}
 
 - Entrada interativa dos valores das cargas
 - Cálculo automático da força elétrica para distâncias entre **0,1 m** e **5,0 m**
-- Geração de gráfico
-- Exibição de valores específicos
-- Salvamento automático do gráfico
+- Geração de gráfico representando a força em função da distância
+- Exibição dos valores calculados
+- Salvamento automático do gráfico em uma pasta específica
 
 ---
 
-## 2. Observações sobre o Comportamento da Força Elétrica
+## 📈 Observações sobre o Comportamento da Força Elétrica
 
-A força elétrica é **inversamente proporcional ao quadrado da distância** entre as cargas:
+A força elétrica entre duas cargas:
 
-- Ao **diminuir a distância**, a força **aumenta rapidamente**
-- Ao **aumentar a distância**, a força **diminui de forma acelerada**
+- **Aumenta rapidamente** ao **diminuir a distância**
+- **Diminui aceleradamente** ao **aumentar a distância**
 
-O gráfico gerado demonstra essa relação com clareza.
-
----
-
-## 3. Dificuldades Encontradas e Soluções
-
-Durante o desenvolvimento, enfrentamos alguns desafios:
-
-- Validação de entrada com função personalizada
-- Limpeza automática do terminal
-- Criação automática de pasta para salvar os gráficos
-- Interpretação gráfica da relação força × distância
+O gráfico gerado ilustra essa **relação inversamente proporcional ao quadrado da distância**.
 
 ---
 
-## 4. Considerações Finais
+## 🧠 Dificuldades Encontradas e Soluções
 
-Este trabalho reforçou o entendimento da **Lei de Coulomb**, destacando o impacto da **distância** na força elétrica.
+Durante o desenvolvimento do simulador, enfrentamos e resolvemos os seguintes desafios:
 
-Além disso, aproximou os alunos da aplicação prática da **programação na Física**.
+- Validação personalizada das entradas do usuário
+- Limpeza automática do terminal para melhorar a usabilidade
+- Criação automática de pastas para organização dos gráficos gerados
+- Interpretação gráfica da relação **força vs. distância**
 
 ---
 
-## 5. Tecnologias Utilizadas
+## ✅ Considerações Finais
+
+Este projeto foi essencial para reforçar o entendimento da **Lei de Coulomb** e demonstrar, de forma prática, como a **programação pode ser aplicada no estudo da Física**.
+
+---
+
+## 💻 Tecnologias Utilizadas
 
 - Python 3
-- Numpy
-- Matplotlib
-- OS (módulo nativo)
+- [Numpy](https://numpy.org/)
+- [Matplotlib](https://matplotlib.org/)
+- Módulo nativo `os`
 
-### Instalação das Bibliotecas:
+### Instalação das Bibliotecas
 
 ```bash
 python -m pip install numpy matplotlib
